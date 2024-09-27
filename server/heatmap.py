@@ -26,4 +26,4 @@ def generate_heatmap(image_path):
 
 # Example usage
 if __name__ == "__main__":
-    generate_heatmap(r"sD:\Thermal Image Processing- 7th Semester\images.jpg")
+    generate_heatmap("server\sample_data\images.jpg")
