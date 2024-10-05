@@ -26,4 +26,4 @@ def generate_heatmap(image_path):
 
 # Example usage
 if __name__ == "__main__":
-    generate_heatmap("sample_data\images.jpg")
+    generate_heatmap("sample_data\humanfeet.jpg")
