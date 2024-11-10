@@ -27,4 +27,4 @@ def color_to_grayscale(image_path, output_path):
     plt.show()
 
 # Example usage
-color_to_grayscale("High 6.png", "grayHigh6.jpg")
+color_to_grayscale("new high 1.png", "graynewhigh1.jpg")
