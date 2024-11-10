@@ -15,9 +15,7 @@ def apply_colormap(image_path, colormap_type):
         "JET": cv2.COLORMAP_JET,
         "HOT": cv2.COLORMAP_HOT,
         "COOL": cv2.COLORMAP_COOL,
-        "RAINBOW": cv2.COLORMAP_RAINBOW,
-        "MAGMA": cm.magma,
-        "VIRIDIS": cm.viridis
+        
     }
 
     if colormap_type in colormap_dict:
@@ -46,9 +44,9 @@ def save_colored_images(input_folder, output_folder, colormap_list):
                 print(f"Saved: {output_path}")
 
 # Example usage
-input_folder = "greyscale"  # Folder containing grayscale thermal images
-output_folder = "heatmap_images"   # Folder to save generated heatmaps
-colormap_list = ["JET", "HOT", "COOL", "RAINBOW", "MAGMA", "VIRIDIS"]  # Choose desired color maps
+input_folder = "greyscalenew"  # Folder containing grayscale thermal images
+output_folder = "heatmap_images_new"   # Folder to save generated heatmaps
+colormap_list = ["JET", "HOT", "COOL"]  # Choose desired color maps
 
 # Generate and save heatmaps
 save_colored_images(input_folder, output_folder, colormap_list)
